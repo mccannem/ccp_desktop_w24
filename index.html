@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href = "#main" class = "skip">Skip to Main Content</a>
+        <nav>
+            <ul class="nav">
+                <li class="active"><a href = "index.html">Home</a></li>
+                <li><a href = "pets.html">Pets</a></li>
+                <li><a href = "recipes.html">Recipes</a></li>
+                <li><a href = "travel.html">Travel</a></li>
+            </ul>
+        </nav>
+        <h1 class="indextitle">Emily's Recommendations!</h1>
+
+    </header>
+    <main id = "main">
+        <div>
+            <p class="index">Welcome to recommendations.com, your go-to destination for all things pets, recipes, and travel! Explore a world of captivating content where we cater to your love for furry companions, culinary delights, and globetrotting adventures. <br></p>
+
+        </div>
+
+        <div>
+            <p class="index">Check out the different pages for a look into some great pets, suggestions for dishes to make, and amazing travel destinations. Below are previews of the content on each page!</p>
+        </div>
+
+        <div class="prevgrid">
+            <div class="previewpages">
+                <div>
+                    <h2>Pets</h1>  
+                </div>
+                <div class="backgroundprev">
+                    <div class="pet-prev">
+                        <img src="images/bacon.jpg" alt="Brown labradoodle wearing colorful lei"> 
+                    </div>
+                    <div class="pet-prev">
+                        <img src="images/pluto.jpg" alt="White dog looking up.">
+                    </div>
+                    <div class="pet-prev">
+                    <img src="images/cody.jpg" alt="Cody at home"> 
+                    </div>
+                    <div class="pet-prev">
+                    <img src="images/smoothie_staring.jpg" alt="Cat with bright green eyes staring at camera."> 
+                    </div>
+                    <div class="pet-prev">
+                    <img src="images/Fitz.jpeg" alt="Boston terrier watching a tennis ball at the table."> 
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>  
+                </div>  
+            </div>
+            <div class="previewpages">
+                <div>
+                    <h2>Recipes</h1>    
+                </div>
+                <div class="backgroundprev">
+                   <div class="rec-prev">
+                        <img src="images/meatballs.jpg" alt="Meatballs on top of a bowl of spaghetti."> 
+                    </div>
+                    <div class="rec-prev">
+                        <img src="images/spaghetti.jpg" alt="Spaghetti in a bowl with marinara sauce and basil.">
+                    </div>
+                    <div class="rec-prev">
+                        <img src="images/chocolate_chip_cookies.jpg" alt="Chocolate chip cookies.">
+                    </div> 
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>   
+            </div>
+            <div class="previewpages">
+                <h2>Travel</h1>
+                <div class="backgroundprev">
+                    <div class="trav-prev">
+                        <img src="images/Vatican_courtyard.jpg" alt="View of the courtyard and Vatican building">
+                    </div>
+                    <div class="trav-prev">
+                        <img src="images/Monteverde_skyline.jpeg" alt="Street with the Monteverde rainforest behind it."> 
+                    </div>
+                    <div class="trav-prev">
+                    <img src="images/bangkok-nongif.jpeg" alt="Colorful street in Thailand"> 
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a> 
+                </div>
+                
+            </div>
+
+             
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
